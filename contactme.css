@@ -1,0 +1,43 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact {
+    padding: 4rem 2rem;
+    background: #111;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-container p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .contact-container a {
+    color: #00ff84;
+    text-decoration: none;
+  }
+  
+  .contact-container a:hover {
+    text-decoration: underline;
+  }
+  .nav-links {
+    display: flex;
+    gap: 30px; /* adjust spacing */
+    justify-content: center; /* center all nav items */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
